@@ -7,3 +7,6 @@ describe('AddItemComponent', () => {
   let fixture: ComponentFixture<AddItemComponent>;
 
   beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ AddItemComponent ]
+ 
