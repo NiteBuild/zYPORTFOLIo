@@ -20,4 +20,6 @@ describe('AddItemComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toBe
+    expect(component).toBeTruthy();
+  });
+});
