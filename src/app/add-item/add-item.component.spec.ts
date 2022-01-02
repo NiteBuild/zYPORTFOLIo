@@ -14,4 +14,6 @@ describe('AddItemComponent', () => {
   });
 
   beforeEach(() => {
-    fixture = TestBed.cre
+    fixture = TestBed.createComponent(AddItemComponent);
+    component = fixture.componentInstance;
+    fi
