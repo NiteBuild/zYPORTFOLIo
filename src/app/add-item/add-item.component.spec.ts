@@ -16,4 +16,8 @@ describe('AddItemComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(AddItemComponent);
     component = fixture.componentInstance;
-    fi
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBe
