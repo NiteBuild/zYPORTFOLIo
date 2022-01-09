@@ -8,4 +8,5 @@ import { ProviderService } from '../services/provider.service';
 
 @Component({
     selector: 'app-add-item',
-    templateUrl: './add
+    templateUrl: './add-item.component.html',
+    styleUrls: ['./add-item.component.scss'
