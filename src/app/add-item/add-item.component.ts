@@ -13,4 +13,6 @@ import { ProviderService } from '../services/provider.service';
 })
 export class AddItemComponent implements OnInit {
     categories = Category;
-    provid
+    providers: Provider[];
+    form: FormGroup;
+    constructor(privat
