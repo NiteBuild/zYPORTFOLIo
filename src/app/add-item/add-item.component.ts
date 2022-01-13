@@ -15,4 +15,7 @@ export class AddItemComponent implements OnInit {
     categories = Category;
     providers: Provider[];
     form: FormGroup;
-    constructor(private productService: ProductService, private providerService: ProviderService, private rou
+    constructor(private productService: ProductService, private providerService: ProviderService, private router: Router) { }
+
+    ngOnInit(): void {
+        this.providerServic
