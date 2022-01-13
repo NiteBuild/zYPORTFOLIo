@@ -15,4 +15,4 @@ export class AddItemComponent implements OnInit {
     categories = Category;
     providers: Provider[];
     form: FormGroup;
-    constructor(privat
+    constructor(private productService: ProductService, private providerService: ProviderService, private rou
