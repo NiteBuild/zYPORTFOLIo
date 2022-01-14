@@ -19,4 +19,6 @@ export class AddItemComponent implements OnInit {
 
     ngOnInit(): void {
         this.providerService.getAll().subscribe(providers => this.providers = providers)
-        this.form 
+        this.form = new FormGroup({
+            model: new FormControl(),
+            brand: new FormC
