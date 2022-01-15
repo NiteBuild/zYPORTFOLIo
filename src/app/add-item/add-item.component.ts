@@ -21,4 +21,6 @@ export class AddItemComponent implements OnInit {
         this.providerService.getAll().subscribe(providers => this.providers = providers)
         this.form = new FormGroup({
             model: new FormControl(),
-            brand: new FormC
+            brand: new FormControl(),
+            barcode: new FormControl(),
+            descriptio
