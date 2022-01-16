@@ -23,4 +23,6 @@ export class AddItemComponent implements OnInit {
             model: new FormControl(),
             brand: new FormControl(),
             barcode: new FormControl(),
-            descriptio
+            description: new FormControl(),
+            price: new FormControl(),
+            category: new F
