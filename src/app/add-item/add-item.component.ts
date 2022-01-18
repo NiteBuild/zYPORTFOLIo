@@ -29,4 +29,6 @@ export class AddItemComponent implements OnInit {
             provider: new FormControl(),
             serviceLevel: new FormControl(),
             prepareCost: new FormControl(),
-            storag
+            storageCost: new FormControl(),
+            revisionPeriod: new FormControl()
+        })
