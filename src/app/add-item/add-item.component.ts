@@ -32,3 +32,8 @@ export class AddItemComponent implements OnInit {
             storageCost: new FormControl(),
             revisionPeriod: new FormControl()
         })
+    }
+
+    onSubmit() {
+        const newProd = new Product();
+        newProd
