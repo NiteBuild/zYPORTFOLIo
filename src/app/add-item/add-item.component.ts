@@ -36,4 +36,6 @@ export class AddItemComponent implements OnInit {
 
     onSubmit() {
         const newProd = new Product();
-        newProd
+        newProd.model = this.form.value.model;
+        newProd.brand = this.form.value.brand;
+      
