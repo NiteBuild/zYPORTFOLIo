@@ -42,4 +42,6 @@ export class AddItemComponent implements OnInit {
         newProd.description = this.form.value.description;
         newProd.price = this.form.value.price;
         newProd.units = 0;
-        newProd.category = this.form.value
+        newProd.category = this.form.value.category;
+        newProd.provider = this.form.value.provider.id;
+        newP
