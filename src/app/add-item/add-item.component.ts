@@ -47,4 +47,5 @@ export class AddItemComponent implements OnInit {
         newProd.serviceLevel = this.form.value.serviceLevel / 100;
         newProd.prepareCost = this.form.value.prepareCost;
         newProd.storageCost = this.form.value.storageCost;
-        newProd.revisionPeriod = newProd.category === "C" ? this.form.v
+        newProd.revisionPeriod = newProd.category === "C" ? this.form.value.revisionPeriod : "";
+        this.productService.addProduct(newProd)
