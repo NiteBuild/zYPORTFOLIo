@@ -45,4 +45,5 @@ export class AddItemComponent implements OnInit {
         newProd.category = this.form.value.category;
         newProd.provider = this.form.value.provider.id;
         newProd.serviceLevel = this.form.value.serviceLevel / 100;
-        newProd.prepareCost = this.fo
+        newProd.prepareCost = this.form.value.prepareCost;
+        newProd.storageCost = this.form.value.sto
