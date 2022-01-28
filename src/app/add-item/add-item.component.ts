@@ -51,4 +51,8 @@ export class AddItemComponent implements OnInit {
         this.productService.addProduct(newProd).subscribe(() => this.router.navigate(["items"]));
     }
 
-    ge
+    getCategories() {
+        return Object.keys(Category);
+    }
+
+}
