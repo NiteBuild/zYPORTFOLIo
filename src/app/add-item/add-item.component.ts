@@ -48,4 +48,7 @@ export class AddItemComponent implements OnInit {
         newProd.prepareCost = this.form.value.prepareCost;
         newProd.storageCost = this.form.value.storageCost;
         newProd.revisionPeriod = newProd.category === "C" ? this.form.value.revisionPeriod : "";
-        this.productService.addProduct(newProd)
+        this.productService.addProduct(newProd).subscribe(() => this.router.navigate(["items"]));
+    }
+
+    ge
