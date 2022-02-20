@@ -7,4 +7,7 @@ describe('AddProviderComponent', () => {
   let fixture: ComponentFixture<AddProviderComponent>;
 
   beforeEach(async () => {
-    await TestBed.configureTe
+    await TestBed.configureTestingModule({
+      declarations: [ AddProviderComponent ]
+    })
+    .compile
