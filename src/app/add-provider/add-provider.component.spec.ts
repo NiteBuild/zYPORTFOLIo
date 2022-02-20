@@ -4,4 +4,7 @@ import { AddProviderComponent } from './add-provider.component';
 
 describe('AddProviderComponent', () => {
   let component: AddProviderComponent;
-  let fixture: ComponentFixtur
+  let fixture: ComponentFixture<AddProviderComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTe
