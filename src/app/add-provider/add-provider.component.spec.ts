@@ -10,4 +10,8 @@ describe('AddProviderComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ AddProviderComponent ]
     })
-    .compile
+    .compileComponents();
+  });
+
+  beforeEach(() => {
+    fixture = TestBed.createCompone
