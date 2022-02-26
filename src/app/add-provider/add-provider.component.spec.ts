@@ -14,4 +14,5 @@ describe('AddProviderComponent', () => {
   });
 
   beforeEach(() => {
-    fixture = TestBed.createCompone
+    fixture = TestBed.createComponent(AddProviderComponent);
+    component = fixture.componentInstance;
