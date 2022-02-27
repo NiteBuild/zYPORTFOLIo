@@ -20,4 +20,6 @@ describe('AddProviderComponent', () => {
   });
 
   it('should create', () => {
-    ex
+    expect(component).toBeTruthy();
+  });
+});
