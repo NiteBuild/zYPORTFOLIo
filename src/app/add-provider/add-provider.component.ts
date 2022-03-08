@@ -4,4 +4,6 @@ import { Provider } from '../classes/provider';
 import { ProviderService } from '../services/provider.service';
 
 @Component({
-    selector: 'app-add-pro
+    selector: 'app-add-provider',
+    templateUrl: './add-provider.component.html',
+   
