@@ -14,4 +14,6 @@ export class AddProviderComponent {
     @Input()
     providers:Provider[];
     form: FormGroup;
-    constructor(private 
+    constructor(private providerService: ProviderService) {
+        this.form = new FormGroup({
+        
