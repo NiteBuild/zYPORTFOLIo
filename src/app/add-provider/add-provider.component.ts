@@ -6,4 +6,7 @@ import { ProviderService } from '../services/provider.service';
 @Component({
     selector: 'app-add-provider',
     templateUrl: './add-provider.component.html',
+    styleUrls: ['./add-provider.component.scss']
+})
+export class AddProviderComponent {
    
