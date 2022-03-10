@@ -12,4 +12,6 @@ export class AddProviderComponent {
     @Output()
     toggleAdd: EventEmitter<void> = new EventEmitter();
     @Input()
-    provi
+    providers:Provider[];
+    form: FormGroup;
+    constructor(private 
