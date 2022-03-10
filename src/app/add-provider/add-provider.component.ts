@@ -9,4 +9,7 @@ import { ProviderService } from '../services/provider.service';
     styleUrls: ['./add-provider.component.scss']
 })
 export class AddProviderComponent {
-   
+    @Output()
+    toggleAdd: EventEmitter<void> = new EventEmitter();
+    @Input()
+    provi
