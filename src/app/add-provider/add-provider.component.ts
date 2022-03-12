@@ -16,4 +16,6 @@ export class AddProviderComponent {
     form: FormGroup;
     constructor(private providerService: ProviderService) {
         this.form = new FormGroup({
-        
+            name: new FormControl(),
+            leadTime: new FormControl(),
+          
