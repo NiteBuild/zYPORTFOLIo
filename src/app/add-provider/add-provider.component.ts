@@ -23,4 +23,6 @@ export class AddProviderComponent {
     }
 
     onSubmit() {
-        let newProv=ne
+        let newProv=new Provider();
+        newProv.name=this.form.value.name;
+        ne
