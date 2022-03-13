@@ -18,4 +18,9 @@ export class AddProviderComponent {
         this.form = new FormGroup({
             name: new FormControl(),
             leadTime: new FormControl(),
-          
+            email: new FormControl()
+        })
+    }
+
+    onSubmit() {
+        let newProv=ne
