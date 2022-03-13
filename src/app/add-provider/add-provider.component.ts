@@ -25,4 +25,5 @@ export class AddProviderComponent {
     onSubmit() {
         let newProv=new Provider();
         newProv.name=this.form.value.name;
-        ne
+        newProv.leadTime=this.form.value.leadTime;
+        newProv.email=this.form.va
