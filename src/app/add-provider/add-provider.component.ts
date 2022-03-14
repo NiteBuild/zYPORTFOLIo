@@ -26,4 +26,6 @@ export class AddProviderComponent {
         let newProv=new Provider();
         newProv.name=this.form.value.name;
         newProv.leadTime=this.form.value.leadTime;
-        newProv.email=this.form.va
+        newProv.email=this.form.value.email;
+        this.providerService.add(newProv);
+        this.providers.push(ne
