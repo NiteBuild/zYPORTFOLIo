@@ -28,4 +28,8 @@ export class AddProviderComponent {
         newProv.leadTime=this.form.value.leadTime;
         newProv.email=this.form.value.email;
         this.providerService.add(newProv);
-        this.providers.push(ne
+        this.providers.push(newProv);
+        this.toggleAdd.emit();
+    }
+
+}
