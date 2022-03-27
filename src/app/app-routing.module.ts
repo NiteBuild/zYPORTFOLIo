@@ -8,4 +8,5 @@ import { ProvidersListComponent } from './providers-list/providers-list.componen
 
 const routes: Routes = [
     { path: "items", component: ProductListComponent },
-    { path: "items/
+    { path: "items/details/:productCode", component: ItemDetailsComponent },
+    { path: "", redirectTo: "item
