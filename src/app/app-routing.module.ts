@@ -12,4 +12,8 @@ const routes: Routes = [
     { path: "", redirectTo: "items", pathMatch: "full" },
     { path: "items/add", component: AddItemComponent },
     { path: "in-out", component: InOutComponent },
-    { path: "providers", component: P
+    { path: "providers", component: ProvidersListComponent }
+]
+
+@NgModule({
+    imports: [RouterModule.forRoot(route
