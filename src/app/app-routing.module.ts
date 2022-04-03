@@ -10,4 +10,6 @@ const routes: Routes = [
     { path: "items", component: ProductListComponent },
     { path: "items/details/:productCode", component: ItemDetailsComponent },
     { path: "", redirectTo: "items", pathMatch: "full" },
-    { path: "items/add", component: AddItemComponen
+    { path: "items/add", component: AddItemComponent },
+    { path: "in-out", component: InOutComponent },
+    { path: "providers", component: P
