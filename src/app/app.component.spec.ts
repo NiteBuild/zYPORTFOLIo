@@ -6,4 +6,8 @@ describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
-        Ro
+        RouterTestingModule
+      ],
+      declarations: [
+        AppComponent
+   
