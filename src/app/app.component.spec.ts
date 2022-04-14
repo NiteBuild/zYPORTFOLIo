@@ -20,4 +20,5 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  
+  it(`should have as title 'stock'`, () => {
+    const fixture = TestBed.createComponent(
