@@ -27,4 +27,5 @@ describe('AppComponent', () => {
   });
 
   it('should render title', () => {
-    const 
+    const fixture = TestBed.createComponent(AppComponent);
+    fixtu
