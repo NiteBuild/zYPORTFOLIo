@@ -10,4 +10,6 @@ import { ItemEditComponent } from './item-edit/item-edit.component';
 import { AngularMaterialModule } from './material.module';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
-import { AddItemComponent } from './add-item/add-ite
+import { AddItemComponent } from './add-item/add-item.component';
+import { InOutComponent } from './in-out/in-out.component';
+im
