@@ -12,4 +12,4 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { AddItemComponent } from './add-item/add-item.component';
 import { InOutComponent } from './in-out/in-out.component';
-im
+import { ProvidersListComponent } from './providers-list/providers-list.comp
