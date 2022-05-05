@@ -14,4 +14,9 @@ import { AddItemComponent } from './add-item/add-item.component';
 import { InOutComponent } from './in-out/in-out.component';
 import { ProvidersListComponent } from './providers-list/providers-list.component';
 import { AddProviderComponent } from './add-provider/add-provider.component';
-import { BarcodeScannerLivestreamModule } from "ngx-barcode-sc
+import { BarcodeScannerLivestreamModule } from "ngx-barcode-scanner";
+
+@NgModule({
+    declarations: [
+        AppComponent,
+        Pro
