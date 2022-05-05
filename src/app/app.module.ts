@@ -21,4 +21,7 @@ import { BarcodeScannerLivestreamModule } from "ngx-barcode-scanner";
         AppComponent,
         ProductListComponent,
         NavBarComponent,
-        ItemDetailsCom
+        ItemDetailsComponent,
+        ItemEditComponent,
+        AddItemComponent,
+     
