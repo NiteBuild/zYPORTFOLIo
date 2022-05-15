@@ -34,4 +34,6 @@ import { BarcodeScannerLivestreamModule } from "ngx-barcode-scanner";
         HttpClientModule,
         FormsModule,
         ReactiveFormsModule,
-   
+        BrowserAnimationsModule,
+        AngularMaterialModule,
+        BarcodeScannerLivestreamMod
