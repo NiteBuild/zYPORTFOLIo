@@ -30,4 +30,8 @@ import { BarcodeScannerLivestreamModule } from "ngx-barcode-scanner";
     ],
     imports: [
         BrowserModule,
-        AppRoutin
+        AppRoutingModule,
+        HttpClientModule,
+        FormsModule,
+        ReactiveFormsModule,
+   
