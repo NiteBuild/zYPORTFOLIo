@@ -1,2 +1,4 @@
 export class Provider {
-    i
+    id:number | undefined;
+    name:string | undefined;
+    leadTime:number | undefined
