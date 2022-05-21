@@ -5,4 +5,7 @@ export class Provider {
     email:string | undefined;
 
   constructor(
-    id?
+    id?: number, 
+    name?: string, 
+    leadTime?: number, 
+    email?: s
