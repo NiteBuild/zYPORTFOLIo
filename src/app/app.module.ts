@@ -41,4 +41,4 @@ import { BarcodeScannerLivestreamModule } from "ngx-barcode-scanner";
     providers: [],
     bootstrap: [AppComponent]
 })
-export clas
+export class AppModule { }
