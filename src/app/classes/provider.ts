@@ -13,4 +13,7 @@ export class Provider {
     this.id = id
     this.name = name
     this.leadTime = leadTime
-    this.e
+    this.email = email
+  }
+
+}
