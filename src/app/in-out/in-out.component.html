@@ -4,4 +4,6 @@
         <div class="column">
         <mat-form-field>
             <mat-label>Barcode</mat-label>
-            <input matInput type="text" [(n
+            <input matInput type="text" [(ngModel)]="barcode" (keyup)="onChange()">
+        </mat-form-field>
+        <ba
