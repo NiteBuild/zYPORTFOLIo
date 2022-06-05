@@ -7,4 +7,7 @@
             <input matInput type="text" [(ngModel)]="barcode" (keyup)="onChange()">
         </mat-form-field>
         <barcode-scanner-livestream maxWidth=26vw type="upc"
-            (valueChang
+            (valueChanges)="onValueChangesScanner($event)"></barcode-scanner-livestream>
+    </div>
+
+    <
