@@ -10,4 +10,6 @@
             (valueChanges)="onValueChangesScanner($event)"></barcode-scanner-livestream>
     </div>
 
-    <form class="column" [formGroup]="form" (ngSubmit)="onSubmit()" *ngIf="product
+    <form class="column" [formGroup]="form" (ngSubmit)="onSubmit()" *ngIf="product">
+        <span>Model: {{product.model}}</span>
+        <p>Brand: {{p
