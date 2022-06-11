@@ -13,4 +13,6 @@
     <form class="column" [formGroup]="form" (ngSubmit)="onSubmit()" *ngIf="product">
         <span>Model: {{product.model}}</span>
         <p>Brand: {{product.brand}}</p>
-        <p><span>Quantity:{{product.units}}</spa
+        <p><span>Quantity:{{product.units}}</span></p>
+        <mat-form-field>
+            <mat-label>Units</mat-labe
