@@ -19,4 +19,5 @@
             <input matInput type="number" formControlName="units">
         </mat-form-field>
 
-        <button [disabled]="!form.controls.units.vali
+        <button [disabled]="!form.controls.units.valid" mat-raised-button type="submit">Accept</button>
+    </form>
