@@ -35,4 +35,5 @@
                     <th>Optimal quantity</th>
                     <td>{{stat.optimalQuantity}}</td>
                 </tr>
-        
+                <tr [ngSwitch]="product.category" class="last">
+                   
