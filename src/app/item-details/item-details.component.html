@@ -36,4 +36,5 @@
                     <td>{{stat.optimalQuantity}}</td>
                 </tr>
                 <tr [ngSwitch]="product.category" class="last">
-                   
+                    <ng-container *ngSwitchCase="'C'">
+                        <th>Revis
