@@ -49,4 +49,5 @@
         </section>
     </div>
     <app-item-edit (toggleEdit)="toggleEdit()" [product]="product" *ngIf=edit></app-item-edit>
-    <button mat-stroked-button (click)="togg
+    <button mat-stroked-button (click)="toggleEdit()">{{edit?"Back":"Edit"}}</button>
+</section>
