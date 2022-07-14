@@ -48,4 +48,5 @@
             </table>
         </section>
     </div>
-    <app-item-edit (toggleEdit)="toggleEdit()" [product]="product" *
+    <app-item-edit (toggleEdit)="toggleEdit()" [product]="product" *ngIf=edit></app-item-edit>
+    <button mat-stroked-button (click)="togg
