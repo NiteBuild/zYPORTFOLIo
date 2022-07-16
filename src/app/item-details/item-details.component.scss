@@ -15,4 +15,9 @@ h2 {
 }
 
 div {
-    color: $gray-fo
+    color: $gray-font;
+}
+
+.desc {
+    column-count: 2;
+    column-rule: 1px dashed 
