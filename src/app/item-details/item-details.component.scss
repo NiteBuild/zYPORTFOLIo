@@ -20,4 +20,8 @@ div {
 
 .desc {
     column-count: 2;
-    column-rule: 1px dashed 
+    column-rule: 1px dashed $gray-light;
+    text-align-last: center;
+
+    ul {
+        display: in
