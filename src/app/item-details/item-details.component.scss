@@ -31,4 +31,7 @@ div {
 table {
     margin-inline: auto;
     width: -webkit-fill-available;
-    
+    border-collapse: collapse;
+
+    tr {
+        border-bottom: 1px solid $g
