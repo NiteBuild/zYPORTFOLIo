@@ -24,4 +24,11 @@ div {
     text-align-last: center;
 
     ul {
-        display: in
+        display: inline;
+    }
+}
+
+table {
+    margin-inline: auto;
+    width: -webkit-fill-available;
+    
