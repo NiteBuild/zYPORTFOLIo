@@ -34,4 +34,12 @@ table {
     border-collapse: collapse;
 
     tr {
-        border-bottom: 1px solid $g
+        border-bottom: 1px solid $gray-light;
+    }
+    tr.last {
+        border-bottom: none;
+    }
+}
+
+button{
+    width: 1
