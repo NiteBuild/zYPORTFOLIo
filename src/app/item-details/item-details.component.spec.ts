@@ -7,4 +7,5 @@ describe('ItemDetailsComponent', () => {
   let fixture: ComponentFixture<ItemDetailsComponent>;
 
   beforeEach(async () => {
-    awa
+    await TestBed.configureTestingModule({
+      declarations: [ ItemDetailsComponen
