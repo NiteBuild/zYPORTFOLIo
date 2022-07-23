@@ -14,4 +14,5 @@ describe('ItemDetailsComponent', () => {
   });
 
   beforeEach(() => {
-    fixture =
+    fixture = TestBed.createComponent(ItemDetailsComponent);
+    component = fix
