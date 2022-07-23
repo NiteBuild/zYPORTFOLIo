@@ -8,4 +8,10 @@ describe('ItemDetailsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ItemDetailsComponen
+      declarations: [ ItemDetailsComponent ]
+    })
+    .compileComponents();
+  });
+
+  beforeEach(() => {
+    fixture =
