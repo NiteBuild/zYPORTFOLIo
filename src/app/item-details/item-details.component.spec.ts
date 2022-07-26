@@ -19,4 +19,7 @@ describe('ItemDetailsComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
