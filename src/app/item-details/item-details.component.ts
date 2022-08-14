@@ -6,4 +6,5 @@ import { Stat } from '../classes/stat';
 
 @Component({
     selector: 'app-item-details',
-    templateUrl: './ite
+    templateUrl: './item-details.component.html',
+    styleUrls: ['./item-details.component.scs
