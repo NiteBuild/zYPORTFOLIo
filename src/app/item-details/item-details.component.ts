@@ -11,3 +11,8 @@ import { Stat } from '../classes/stat';
 })
 export class ItemDetailsComponent implements OnInit {
     barcode: string;
+    product: Product;
+    edit: boolean;
+    stat: Stat;
+
+    constr
