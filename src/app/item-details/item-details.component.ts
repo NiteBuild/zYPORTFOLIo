@@ -15,4 +15,4 @@ export class ItemDetailsComponent implements OnInit {
     edit: boolean;
     stat: Stat;
 
-    constr
+    constructor(private route: ActivatedRoute, private productService: ProductSer
