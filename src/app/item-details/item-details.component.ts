@@ -18,4 +18,5 @@ export class ItemDetailsComponent implements OnInit {
     constructor(private route: ActivatedRoute, private productService: ProductService) { }
 
     ngOnInit(): void {
-        this.productService.getBy
+        this.productService.getByBarcode(this.route.snapshot.params["productCode"])
+            .subscr
