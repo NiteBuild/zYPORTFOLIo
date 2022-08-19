@@ -15,4 +15,7 @@ export class ItemDetailsComponent implements OnInit {
     edit: boolean;
     stat: Stat;
 
-    constructor(private route: ActivatedRoute, private productService: ProductSer
+    constructor(private route: ActivatedRoute, private productService: ProductService) { }
+
+    ngOnInit(): void {
+        this.productService.getBy
