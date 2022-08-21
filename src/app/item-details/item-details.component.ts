@@ -19,4 +19,6 @@ export class ItemDetailsComponent implements OnInit {
 
     ngOnInit(): void {
         this.productService.getByBarcode(this.route.snapshot.params["productCode"])
-            .subscr
+            .subscribe((prod) => {
+                this.product = prod;
+                console
