@@ -30,4 +30,6 @@ export class ItemDetailsComponent implements OnInit {
     }
 
     toggleEdit() {
-        this.edit = !t
+        this.edit = !this.edit;
+    }
+}
