@@ -25,4 +25,9 @@ export class ItemDetailsComponent implements OnInit {
                 
                 prod.id ?
                     this.productService.getStats(prod.id)
-                        .subscribe(stat => this.
+                        .subscribe(stat => this.stat = stat) : new Stat();
+            })
+    }
+
+    toggleEdit() {
+        this.edit = !t
