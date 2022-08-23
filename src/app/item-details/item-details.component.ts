@@ -24,4 +24,5 @@ export class ItemDetailsComponent implements OnInit {
                 console.log(prod);
                 
                 prod.id ?
-                
+                    this.productService.getStats(prod.id)
+                        .subscribe(stat => this.
