@@ -21,4 +21,7 @@ export class ItemDetailsComponent implements OnInit {
         this.productService.getByBarcode(this.route.snapshot.params["productCode"])
             .subscribe((prod) => {
                 this.product = prod;
-                console
+                console.log(prod);
+                
+                prod.id ?
+                
