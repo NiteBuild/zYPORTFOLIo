@@ -28,4 +28,6 @@
             <mat-form-field appearance="fill">
                 <mat-label>Category</mat-label>
                 <mat-select formControlName="category">
-                    <mat-option *ngFor="let cat of getCategories()" [va
+                    <mat-option *ngFor="let cat of getCategories()" [value]=cat>{{cat}}</mat-option>
+                </mat-select>
+         
