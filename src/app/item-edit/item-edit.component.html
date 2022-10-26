@@ -37,4 +37,5 @@
             </mat-form-field>
             <mat-form-field appearance="fill">
                 <mat-label>Provider</mat-label>
-                <mat-select formControlName="provid
+                <mat-select formControlName="provider" [compareWith]="compareProvider">
+                    <mat-option *ngFo
