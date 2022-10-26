@@ -38,4 +38,5 @@
             <mat-form-field appearance="fill">
                 <mat-label>Provider</mat-label>
                 <mat-select formControlName="provider" [compareWith]="compareProvider">
-                    <mat-option *ngFo
+                    <mat-option *ngFor="let prov of providers" [value]="prov">{{prov.name}}</mat-option>
+                
