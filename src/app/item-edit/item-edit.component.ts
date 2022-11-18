@@ -3,4 +3,5 @@ import { FormControl, FormGroup } from '@angular/forms';
 
 import { Category, Product } from '../classes/product';
 import { Provider } from '../classes/provider';
-import { ProductService } from '../services/pr
+import { ProductService } from '../services/product.service';
+import { ProviderService } from '../servi
