@@ -14,4 +14,6 @@ import { ProviderService } from '../services/provider.service';
 export class ItemEditComponent implements OnInit {
     @Input()
     product: Product;
-  
+    @Output()
+    toggleEdit = new EventEmitter<void>();
+    categories = Categ
