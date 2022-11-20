@@ -9,4 +9,9 @@ import { ProviderService } from '../services/provider.service';
 @Component({
     selector: 'app-item-edit',
     templateUrl: './item-edit.component.html',
-    styleUrls: ['./item-edit.component
+    styleUrls: ['./item-edit.component.scss']
+})
+export class ItemEditComponent implements OnInit {
+    @Input()
+    product: Product;
+  
