@@ -16,4 +16,8 @@ export class ItemEditComponent implements OnInit {
     product: Product;
     @Output()
     toggleEdit = new EventEmitter<void>();
-    categories = Categ
+    categories = Category;
+    form: FormGroup;
+    providers: Provider[];
+
+    constructor(priva
