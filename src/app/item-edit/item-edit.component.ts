@@ -20,4 +20,7 @@ export class ItemEditComponent implements OnInit {
     form: FormGroup;
     providers: Provider[];
 
-    constructor(private productService: ProductService, private providerService: ProviderService
+    constructor(private productService: ProductService, private providerService: ProviderService) { }
+
+    ngOnInit(): void {
+        this.providerService.getAll().subscribe(p
