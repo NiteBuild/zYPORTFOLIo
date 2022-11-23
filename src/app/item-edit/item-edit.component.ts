@@ -23,4 +23,6 @@ export class ItemEditComponent implements OnInit {
     constructor(private productService: ProductService, private providerService: ProviderService) { }
 
     ngOnInit(): void {
-        this.providerService.getAll().subscribe(p
+        this.providerService.getAll().subscribe(provs => this.providers = provs);
+        this.form = new FormGroup({
+           
