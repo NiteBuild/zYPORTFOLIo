@@ -20,4 +20,4 @@ export class ItemEditComponent implements OnInit {
     form: FormGroup;
     providers: Provider[];
 
-    constructor(priva
+    constructor(private productService: ProductService, private providerService: ProviderService
