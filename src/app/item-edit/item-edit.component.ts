@@ -25,4 +25,5 @@ export class ItemEditComponent implements OnInit {
     ngOnInit(): void {
         this.providerService.getAll().subscribe(provs => this.providers = provs);
         this.form = new FormGroup({
-           
+            model: new FormControl(this.product.model),
+            brand: new FormContr
