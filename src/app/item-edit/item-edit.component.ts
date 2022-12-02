@@ -26,4 +26,6 @@ export class ItemEditComponent implements OnInit {
         this.providerService.getAll().subscribe(provs => this.providers = provs);
         this.form = new FormGroup({
             model: new FormControl(this.product.model),
-            brand: new FormContr
+            brand: new FormControl(this.product.brand),
+            barcode: new FormControl(this.product.barcode),
+    
