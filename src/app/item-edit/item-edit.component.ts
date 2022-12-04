@@ -31,4 +31,5 @@ export class ItemEditComponent implements OnInit {
             description: new FormControl(this.product.description),
             price: new FormControl(this.product.price),
             category: new FormControl(this.product.category),
-            provider: new FormControl(this.
+            provider: new FormControl(this.product.provider),
+            serviceLevel: new FormControl(this.p
