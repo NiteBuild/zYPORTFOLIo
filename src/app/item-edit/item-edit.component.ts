@@ -36,4 +36,8 @@ export class ItemEditComponent implements OnInit {
             prepareCost: new FormControl(this.product.prepareCost),
             storageCost: new FormControl(this.product.storageCost),
             revisionPeriod: new FormControl()
-        }
+        })
+    }
+
+    onSubmit() {
+        this.product.model = this.form.value.m
