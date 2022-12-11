@@ -42,4 +42,5 @@ export class ItemEditComponent implements OnInit {
     onSubmit() {
         this.product.model = this.form.value.model;
         this.product.brand = this.form.value.brand;
-        this.product.
+        this.product.barcode = this.form.value.barcode;
+        this.product.description = this.
