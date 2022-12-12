@@ -44,4 +44,6 @@ export class ItemEditComponent implements OnInit {
         this.product.brand = this.form.value.brand;
         this.product.barcode = this.form.value.barcode;
         this.product.description = this.form.value.description;
-        this.product.price = this.form.value.
+        this.product.price = this.form.value.price;
+        this.product.category = this.form.value.category;
+        this.pr
