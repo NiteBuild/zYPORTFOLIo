@@ -48,4 +48,5 @@ export class ItemEditComponent implements OnInit {
         this.product.category = this.form.value.category;
         this.product.provider = this.form.value.provider;
         this.product.serviceLevel = this.form.value.serviceLevel;
-        this.product.prepareCost = thi
+        this.product.prepareCost = this.form.value.prepareCost;
+        this.product.storageCost = this.form.value
