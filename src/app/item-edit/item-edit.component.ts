@@ -51,4 +51,8 @@ export class ItemEditComponent implements OnInit {
         this.product.prepareCost = this.form.value.prepareCost;
         this.product.storageCost = this.form.value.storageCost;
         this.product.revisionPeriod = this.product.category === "C" ? this.form.value.revisionPeriod : "";
-        this.productService.
+        this.productService.editProduct(this.product);
+        this.toggleEdit.emit();
+    }
+
+    getCategories()
