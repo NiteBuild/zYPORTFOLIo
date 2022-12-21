@@ -55,4 +55,8 @@ export class ItemEditComponent implements OnInit {
         this.toggleEdit.emit();
     }
 
-    getCategories()
+    getCategories() {
+        return Object.keys(Category);
+    }
+
+    compareProvider(optio
