@@ -59,4 +59,7 @@ export class ItemEditComponent implements OnInit {
         return Object.keys(Category);
     }
 
-    compareProvider(optio
+    compareProvider(option:Provider,value:Provider){
+        return option.id ===value.id;
+    }
+}
