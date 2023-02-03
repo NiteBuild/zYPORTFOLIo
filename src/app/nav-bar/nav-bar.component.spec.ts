@@ -14,4 +14,5 @@ describe('NavBarComponent', () => {
   });
 
   beforeEach(() => {
-    fixt
+    fixture = TestBed.createComponent(NavBarComponent);
+    component = fixture.c
