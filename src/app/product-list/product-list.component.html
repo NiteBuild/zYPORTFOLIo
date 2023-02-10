@@ -2,4 +2,6 @@
     <div class="table">
         <mat-form-field appearance="standard">
             <mat-label>Search</mat-label>
-            <input matInput 
+            <input matInput (keyup)="applyFilter($event)" #input />
+        </mat-form-field>
+       
