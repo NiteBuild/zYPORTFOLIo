@@ -29,4 +29,5 @@
             </ng-container>
 
             <ng-container matColumnDef="units">
-                <th mat-header-cell *matHeaderCellDef mat-sort-header>Units</
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Units</th>
+                <td mat-cell *matCellDef="let row">{{ row.units }}</td>
