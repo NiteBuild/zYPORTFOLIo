@@ -1,0 +1,27 @@
+
+mat-form-field{
+    width: 100%;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    background-color: #424242;
+}
+
+table {
+   // border-collapse: collapse;
+	width: 100%;
+    border-radius: 1vw;
+    thead{
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+       
+    }
+	th {
+		&:hover {
+			cursor: pointer;
+			user-select: none;
+		}
+	}
+    .mat-r{
+        cursor: pointer;
+        &:hover{
+            background-color: rgb(87, 87, 87);
