@@ -25,3 +25,11 @@ table {
         cursor: pointer;
         &:hover{
             background-color: rgb(87, 87, 87);
+        }
+    }
+}
+
+mat-paginator{
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
