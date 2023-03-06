@@ -14,4 +14,5 @@ describe('ProductListComponent', () => {
   });
 
   beforeEach(() => {
-   
+    fixture = TestBed.createComponent(ProductListComponent);
+    component = fixture.componentI
