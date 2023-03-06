@@ -1,2 +1,3 @@
 import { Product } from '../classes/product';
-import {
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { ProductService 
