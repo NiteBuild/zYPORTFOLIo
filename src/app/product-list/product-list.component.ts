@@ -17,3 +17,6 @@ export class ProductListComponent implements OnInit {
     productList: Product[] = [];
     displayedColumns: string[] = [ 'brand', "model", "barcode", "price", "units"];
     dataSource: MatTableDataSource<Product>;
+
+    @ViewChild(MatPaginator) paginator: MatPaginator;
+    @View
