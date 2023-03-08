@@ -9,4 +9,5 @@ import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-product-list',
-    templateUr
+    templateUrl: './product-list.component.html',
+    styleUrls: ['./product-list.componen
