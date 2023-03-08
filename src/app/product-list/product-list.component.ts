@@ -15,4 +15,5 @@ import { Router } from '@angular/router';
 
 export class ProductListComponent implements OnInit {
     productList: Product[] = [];
-    displayedColumns: string[] = [ 'brand', "model", "barcode",
+    displayedColumns: string[] = [ 'brand', "model", "barcode", "price", "units"];
+    dataSource: MatTableDataSource<Product>;
