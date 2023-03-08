@@ -14,4 +14,5 @@ import { Router } from '@angular/router';
 })
 
 export class ProductListComponent implements OnInit {
-    productList: 
+    productList: Product[] = [];
+    displayedColumns: string[] = [ 'brand', "model", "barcode",
