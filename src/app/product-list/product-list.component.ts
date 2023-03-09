@@ -19,4 +19,6 @@ export class ProductListComponent implements OnInit {
     dataSource: MatTableDataSource<Product>;
 
     @ViewChild(MatPaginator) paginator: MatPaginator;
-    @View
+    @ViewChild(MatSort) sort: MatSort;
+
+    constructor(private p
