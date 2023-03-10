@@ -35,4 +35,5 @@ export class ProductListComponent implements OnInit {
     }
 
     applyFilter(event: Event) {
-        const
+        const filterValue = (event.target as HTMLInputElement).value;
+     
