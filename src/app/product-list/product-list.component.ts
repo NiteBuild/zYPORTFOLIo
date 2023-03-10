@@ -21,4 +21,6 @@ export class ProductListComponent implements OnInit {
     @ViewChild(MatPaginator) paginator: MatPaginator;
     @ViewChild(MatSort) sort: MatSort;
 
-    constructor(private p
+    constructor(private productService: ProductService, private router: Router) { }
+
+    ngOnIni
