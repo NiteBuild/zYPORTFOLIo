@@ -30,4 +30,9 @@ export class ProductListComponent implements OnInit {
             this.productList = pList;
             this.dataSource = new MatTableDataSource(this.productList);
             this.dataSource.paginator = this.paginator;
-            this.dataSource.sort = thi
+            this.dataSource.sort = this.sort
+        });
+    }
+
+    applyFilter(event: Event) {
+        const
