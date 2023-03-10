@@ -28,4 +28,5 @@ export class ProductListComponent implements OnInit {
             console.log(pList);
             
             this.productList = pList;
-            this.data
+            this.dataSource = new MatTableDataSource(this.productList);
+            this.dataS
