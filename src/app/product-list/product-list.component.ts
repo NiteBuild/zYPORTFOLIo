@@ -23,4 +23,6 @@ export class ProductListComponent implements OnInit {
 
     constructor(private productService: ProductService, private router: Router) { }
 
-    ngOnIni
+    ngOnInit(): void {
+        this.productService.getAll().subscribe((pList) => {
+        
