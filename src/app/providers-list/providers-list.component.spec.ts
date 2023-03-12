@@ -1,1 +1,3 @@
-import { ComponentFix
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { ProvidersList
