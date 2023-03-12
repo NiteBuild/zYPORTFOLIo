@@ -43,4 +43,7 @@ export class ProductListComponent implements OnInit {
     }
 
     onProductSelect(prod: Product) {
-        this.rou
+        this.router.navigate(["items/details/" + prod.barcode])
+    }
+}
+
