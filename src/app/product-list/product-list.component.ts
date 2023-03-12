@@ -39,4 +39,8 @@ export class ProductListComponent implements OnInit {
         this.dataSource.filter = filterValue.trim().toLowerCase();
         if (this.dataSource.paginator) {
             this.dataSource.paginator.firstPage();
-     
+        }
+    }
+
+    onProductSelect(prod: Product) {
+        this.rou
