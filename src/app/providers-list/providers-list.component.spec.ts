@@ -4,4 +4,6 @@ import { ProvidersListComponent } from './providers-list.component';
 
 describe('ProvidersListComponent', () => {
   let component: ProvidersListComponent;
-  let fix
+  let fixture: ComponentFixture<ProvidersListComponent>;
+
+  beforeEach(async 
