@@ -6,4 +6,6 @@ describe('ProvidersListComponent', () => {
   let component: ProvidersListComponent;
   let fixture: ComponentFixture<ProvidersListComponent>;
 
-  beforeEach(async 
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations:
