@@ -13,4 +13,5 @@ describe('ProvidersListComponent', () => {
     .compileComponents();
   });
 
-  befo
+  beforeEach(() => {
+    fixture = TestBed.createComponent(ProvidersListCo
