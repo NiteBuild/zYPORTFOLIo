@@ -14,4 +14,6 @@ describe('ProvidersListComponent', () => {
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ProvidersListCo
+    fixture = TestBed.createComponent(ProvidersListComponent);
+    component = fixture.componentInstance;
+    fixture.detectCha
