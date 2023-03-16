@@ -16,4 +16,10 @@ describe('ProvidersListComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(ProvidersListComponent);
     component = fixture.componentInstance;
-    fixture.detectCha
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
