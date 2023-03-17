@@ -5,4 +5,6 @@ import { ProviderService } from '../services/provider.service';
 @Component({
     selector: 'app-providers-list',
     templateUrl: './providers-list.component.html',
-   
+    styleUrls: ['./providers-list.component.scss']
+})
+export class ProvidersListCompone
