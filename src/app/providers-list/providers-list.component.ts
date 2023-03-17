@@ -3,4 +3,6 @@ import { Provider } from '../classes/provider';
 import { ProviderService } from '../services/provider.service';
 
 @Component({
-    selector: 'app-providers-list
+    selector: 'app-providers-list',
+    templateUrl: './providers-list.component.html',
+   
