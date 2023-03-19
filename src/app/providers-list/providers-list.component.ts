@@ -7,4 +7,6 @@ import { ProviderService } from '../services/provider.service';
     templateUrl: './providers-list.component.html',
     styleUrls: ['./providers-list.component.scss']
 })
-export class ProvidersListCompone
+export class ProvidersListComponent implements OnInit {
+    providers: Provider[];
+    columnsToDisplay: strin
