@@ -20,4 +20,7 @@ export class ProvidersListComponent implements OnInit {
     }
 
     toggleAdd() {
-      
+        this.editing=!this.editing;
+    }
+
+}
