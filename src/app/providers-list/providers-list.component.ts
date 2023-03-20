@@ -12,4 +12,7 @@ export class ProvidersListComponent implements OnInit {
     columnsToDisplay: string[] = ["name", "leadTime", "email"];
     editing: boolean;
 
-    constructor(pr
+    constructor(private providerService: ProviderService) { }
+
+    ngOnInit(): void {
+        t
