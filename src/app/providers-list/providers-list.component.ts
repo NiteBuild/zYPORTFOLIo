@@ -9,4 +9,7 @@ import { ProviderService } from '../services/provider.service';
 })
 export class ProvidersListComponent implements OnInit {
     providers: Provider[];
-    columnsToDisplay: strin
+    columnsToDisplay: string[] = ["name", "leadTime", "email"];
+    editing: boolean;
+
+    constructor(pr
