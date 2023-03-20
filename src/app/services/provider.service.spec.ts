@@ -1,1 +1,5 @@
-import { TestBed } from '@ang
+import { TestBed } from '@angular/core/testing';
+
+import { ProviderService } from './provider.service';
+
+describe('
