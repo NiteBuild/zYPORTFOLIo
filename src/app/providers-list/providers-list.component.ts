@@ -15,4 +15,9 @@ export class ProvidersListComponent implements OnInit {
     constructor(private providerService: ProviderService) { }
 
     ngOnInit(): void {
-        this.providerService.getAll().subscribe((provs) => this.providers = 
+        this.providerService.getAll().subscribe((provs) => this.providers = provs);
+        this.editing = false;
+    }
+
+    toggleAdd() {
+      
