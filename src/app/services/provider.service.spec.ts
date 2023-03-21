@@ -11,4 +11,6 @@ describe('ProviderService', () => {
   });
 
   it('should be created', () => {
-    exp
+    expect(service).toBeTruthy();
+  });
+});
