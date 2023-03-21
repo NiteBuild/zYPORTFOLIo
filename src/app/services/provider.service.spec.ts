@@ -5,4 +5,6 @@ import { ProviderService } from './provider.service';
 describe('ProviderService', () => {
   let service: ProviderService;
 
-  beforeEach(() 
+  beforeEach(() => {
+    TestBed.configureTestingModule({});
+    service = TestBed.inject(Pro
