@@ -12,3 +12,4 @@ import '@angular/localize/init';
  *      file.
  *
  * The current setup is for so-called "evergreen" browsers; the last versions of browsers that
+ * automatically update themselves. This includes Safari >= 10, Chrome >
