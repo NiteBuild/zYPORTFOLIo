@@ -29,4 +29,5 @@ import '@angular/localize/init';
 
 /**
  * Web Animations `@angular/platform-browser/animations`
- * Only required if AnimationBuilder 
+ * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
+ * Standard animati
