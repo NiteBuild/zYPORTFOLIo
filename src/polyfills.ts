@@ -35,4 +35,5 @@ import '@angular/localize/init';
 // import 'web-animations-js';  // Run `npm install --save web-animations-js`.
 
 /**
- * By default, zone.js will patch all possible macroTask and 
+ * By default, zone.js will patch all possible macroTask and DomEvents
+ * user can disable parts of macroTask/DomEvents patch by setti
