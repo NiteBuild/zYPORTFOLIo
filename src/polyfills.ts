@@ -18,4 +18,9 @@ import '@angular/localize/init';
  * Learn more in https://angular.io/guide/browser-support
  */
 
-/***********************************************************************************
+/***************************************************************************************************
+ * BROWSER POLYFILLS
+ */
+
+/**
+ * IE11 requires the following 
