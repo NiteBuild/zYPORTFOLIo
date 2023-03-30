@@ -28,4 +28,5 @@ import '@angular/localize/init';
 // import 'classlist.js';  // Run `npm install --save classlist.js`.
 
 /**
- * Web Animations `
+ * Web Animations `@angular/platform-browser/animations`
+ * Only required if AnimationBuilder 
