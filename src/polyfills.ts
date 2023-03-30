@@ -23,4 +23,6 @@ import '@angular/localize/init';
  */
 
 /**
- * IE11 requires the following 
+ * IE11 requires the following for NgClass support on SVG elements
+ */
+// import 'classlist.
