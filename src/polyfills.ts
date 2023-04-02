@@ -39,4 +39,5 @@ import '@angular/localize/init';
  * user can disable parts of macroTask/DomEvents patch by setting following flags
  * because those flags need to be set before `zone.js` being loaded, and webpack
  * will put import in the top of bundle, so user need to create a separate file
- * in this directory (for example: zone-fl
+ * in this directory (for example: zone-flags.ts), and put the following flags
+ * into that file, and t
