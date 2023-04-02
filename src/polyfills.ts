@@ -44,3 +44,7 @@ import '@angular/localize/init';
  * import './zone-flags';
  *
  * The flags allowed in zone-flags.ts are listed here.
+ *
+ * The following flags will work for all browsers.
+ *
+ * (window as any).__Zone_disab
