@@ -48,3 +48,4 @@ import '@angular/localize/init';
  * The following flags will work for all browsers.
  *
  * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame
+ * (window as any).__Zone_disable_on_property = true; // disable
