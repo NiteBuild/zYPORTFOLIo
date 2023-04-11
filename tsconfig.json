@@ -11,4 +11,6 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
-    "strictPropertyInitialization"
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node
