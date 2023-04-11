@@ -10,3 +10,5 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
+    "downlevelIteration": true,
+    "strictPropertyInitialization"
